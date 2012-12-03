@@ -14,6 +14,9 @@
 		6B523A3016679251006F2748 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B523A2F16679251006F2748 /* Document.m */; };
 		6B523A3316679251006F2748 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B523A3116679251006F2748 /* Document.xib */; };
 		6B523A3616679251006F2748 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B523A3416679251006F2748 /* MainMenu.xib */; };
+		6B523A4216679C0D006F2748 /* Account.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B523A4116679C0D006F2748 /* Account.m */; };
+		6B523A451667A289006F2748 /* AccountTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B523A441667A289006F2748 /* AccountTableController.m */; };
+		6B523A481667A2A7006F2748 /* MoneyTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B523A471667A2A7006F2748 /* MoneyTableController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,12 @@
 		6B523A2F16679251006F2748 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		6B523A3216679251006F2748 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
 		6B523A3516679251006F2748 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6B523A4016679C0D006F2748 /* Account.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Account.h; sourceTree = "<group>"; };
+		6B523A4116679C0D006F2748 /* Account.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Account.m; sourceTree = "<group>"; };
+		6B523A431667A289006F2748 /* AccountTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountTableController.h; sourceTree = "<group>"; };
+		6B523A441667A289006F2748 /* AccountTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountTableController.m; sourceTree = "<group>"; };
+		6B523A461667A2A7006F2748 /* MoneyTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyTableController.h; sourceTree = "<group>"; };
+		6B523A471667A2A7006F2748 /* MoneyTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyTableController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +96,12 @@
 				6B523A2E16679251006F2748 /* Document.h */,
 				6B523A2F16679251006F2748 /* Document.m */,
 				6B523A3116679251006F2748 /* Document.xib */,
+				6B523A431667A289006F2748 /* AccountTableController.h */,
+				6B523A441667A289006F2748 /* AccountTableController.m */,
+				6B523A461667A2A7006F2748 /* MoneyTableController.h */,
+				6B523A471667A2A7006F2748 /* MoneyTableController.m */,
+				6B523A4016679C0D006F2748 /* Account.h */,
+				6B523A4116679C0D006F2748 /* Account.m */,
 				6B523A3416679251006F2748 /* MainMenu.xib */,
 				6B523A2316679251006F2748 /* Supporting Files */,
 			);
@@ -172,6 +187,9 @@
 			files = (
 				6B523A2916679251006F2748 /* main.m in Sources */,
 				6B523A3016679251006F2748 /* Document.m in Sources */,
+				6B523A4216679C0D006F2748 /* Account.m in Sources */,
+				6B523A451667A289006F2748 /* AccountTableController.m in Sources */,
+				6B523A481667A2A7006F2748 /* MoneyTableController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
